@@ -1,0 +1,1650 @@
+
+(PCSX2:5598): Gtk-WARNING **: 21:41:16.635: Unable to locate theme engine in module_path: "adwaita",
+
+(PCSX2:5598): Gtk-WARNING **: 21:41:16.636: Unable to locate theme engine in module_path: "adwaita",
+
+(PCSX2:5598): Gtk-WARNING **: 21:41:16.639: Unable to locate theme engine in module_path: "murrine",
+
+(PCSX2:5598): Gtk-WARNING **: 21:41:16.639: Unable to locate theme engine in module_path: "murrine",
+
+(PCSX2:5598): Gtk-WARNING **: 21:41:16.639: Unable to locate theme engine in module_path: "murrine",
+
+(PCSX2:5598): Gtk-WARNING **: 21:41:16.641: Unable to locate theme engine in module_path: "murrine",
+
+(PCSX2:5598): Gtk-WARNING **: 21:41:16.641: Unable to locate theme engine in module_path: "murrine",
+
+(PCSX2:5598): Gtk-WARNING **: 21:41:16.641: Unable to locate theme engine in module_path: "murrine",
+
+(PCSX2:5598): Gtk-WARNING **: 21:41:16.641: Unable to locate theme engine in module_path: "murrine",
+
+(PCSX2:5598): Gtk-WARNING **: 21:41:16.641: Unable to locate theme engine in module_path: "murrine",
+
+(PCSX2:5598): Gtk-WARNING **: 21:41:16.641: Unable to locate theme engine in module_path: "murrine",
+
+(PCSX2:5598): Gtk-WARNING **: 21:41:16.641: Unable to locate theme engine in module_path: "murrine",
+
+(PCSX2:5598): Gtk-WARNING **: 21:41:16.642: Unable to locate theme engine in module_path: "murrine",
+PCSX2 1.4.0-0- compiled on Dec 31 2017
+Savestate version: 0x9a0b0000
+
+Host Machine Init:
+	Operating System =  Linux 4.19.45-1-MANJARO x86_64
+	Physical RAM     =  7868 MB
+	CPU name         =  Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz
+	Vendor/Model     =  GenuineIntel (stepping 03)
+	CPU speed        =  2.397 ghz (4 logical threads)
+	x86PType         =  Standard OEM
+	x86Flags         =  bfebfbff 7ffafbbf
+	x86EFlags        =  2c100000
+
+x86 Features Detected:
+	SSE2.. SSE3.. SSSE3.. SSE4.1.. SSE4.2.. AVX.. AVX2.. FMA
+
+Installing POSIX SIGSEGV handler...
+Reserving memory for recompilers...
+
+Loading plugins...
+	Binding   GS: /usr/lib32/pcsx2/libGSdx-1.0.0.so 
+	Binding  PAD: /usr/lib32/pcsx2/libonepad-1.1.0.so 
+	Binding SPU2: /usr/lib32/pcsx2/libspu2x-2.0.0.so 
+	Binding CDVD: /usr/lib32/pcsx2/libCDVDiso.so 
+	Binding  USB: /usr/lib32/pcsx2/libUSBnull-0.7.0.so 
+	Binding   FW: /usr/lib32/pcsx2/libFWnull-0.7.0.so 
+	Binding DEV9: /usr/lib32/pcsx2/libdev9null-0.5.0.so 
+Plugins loaded successfully.
+
+(GameDB) 9693 games on record (loaded in 199ms)
+HLE Notice: ELF does not have a path.
+
+
+Initializing plugins...
+	Init GS
+	Init PAD
+	Init SPU2
+	Init CDVD
+	Init USB
+	Init FW
+	Init DEV9
+Plugins initialized successfully.
+
+Opening plugins...
+	Opening GS
+Current Renderer: OpenGL (Hardware mode)
+glX-Version 1.4 with Direct Rendering
+OpenGL information. GPU: AMD HAINAN (DRM 2.50.0, 4.19.45-1-MANJARO, LLVM 8.0.0). Vendor: X.Org. Driver: (Core Profile) Mesa 19.0.4
+Buggy driver detected. Geometry shaders will be disabled
+Buggy driver detected, GL_ARB_separate_shader_objects will be disabled
+INFO: GL_EXT_texture_filter_anisotropic is available
+INFO: GL_ARB_gpu_shader5 is available
+INFO: GL_ARB_draw_buffers_blend is available
+INFO: GL_ARB_separate_shader_objects is NOT SUPPORTED
+INFO: GL_ARB_shader_image_load_store is available
+INFO: GL_ARB_copy_image is available
+INFO: GL_ARB_buffer_storage is available
+INFO: GL_ARB_clear_texture is available
+INFO: GL_ARB_clip_control is available
+INFO: GL_ARB_direct_state_access is available
+INFO: GL_ARB_texture_barrier is available
+
+	Opening PAD
+	Opening SPU2
+Expression 'SetApproximateSampleRate( pcm, hwParams, defaultSr )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 931
+Expression 'SetApproximateSampleRate( pcm, hwParams, defaultSr )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 931
+Expression 'SetApproximateSampleRate( pcm, hwParams, defaultSr )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 931
+Expression 'SetApproximateSampleRate( pcm, hwParams, defaultSr )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 931
+Expression 'SetApproximateSampleRate( pcm, hwParams, defaultSr )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 931
+Expression 'SetApproximateSampleRate( pcm, hwParams, defaultSr )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 931
+ALSA lib pcm.c:2565:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.rear
+ALSA lib pcm.c:2565:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.center_lfe
+ALSA lib pcm.c:2565:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.side
+ALSA lib pcm_route.c:869:(find_matching_chmap) Found no matching channel map
+ALSA lib pcm_route.c:869:(find_matching_chmap) Found no matching channel map
+ALSA lib pcm_route.c:869:(find_matching_chmap) Found no matching channel map
+ALSA lib pcm_route.c:869:(find_matching_chmap) Found no matching channel map
+Expression 'SetApproximateSampleRate( pcm, hwParams, defaultSr )' failed in 'src/hostapi/alsa/pa_linux_alsa.c', line: 931
+ALSA lib dlmisc.c:287:(snd1_dlobj_cache_get) Cannot open shared library /usr/lib32/alsa-lib/libasound_module_rate_speexrate.so ((null): libspeexdsp.so.1: cannot open shared object file: No such file or directory)
+ALSA lib pcm_rate.c:1450:(snd_pcm_rate_open) Cannot find rate converter
+ALSA lib dlmisc.c:287:(snd1_dlobj_cache_get) Cannot open shared library /usr/lib32/alsa-lib/libasound_module_rate_speexrate.so ((null): libspeexdsp.so.1: cannot open shared object file: No such file or directory)
+ALSA lib pcm_rate.c:1450:(snd_pcm_rate_open) Cannot find rate converter
+connect(2) call to /dev/shm/jack-1000/default/jack_0 failed (err=No such file or directory)
+attempt to connect to server failed
+connect(2) call to /dev/shm/jack-1000/default/jack_0 failed (err=No such file or directory)
+attempt to connect to server failed
+ALSA lib pcm_oss.c:377:(_snd_pcm_oss_open) Unknown field port
+ALSA lib pcm_oss.c:377:(_snd_pcm_oss_open) Unknown field port
+ALSA lib dlmisc.c:287:(snd1_dlobj_cache_get) Cannot open shared library /usr/lib32/alsa-lib/libasound_module_pcm_speex.so ((null): libspeexdsp.so.1: cannot open shared object file: No such file or directory)
+ALSA lib dlmisc.c:287:(snd1_dlobj_cache_get) Cannot open shared library /usr/lib32/alsa-lib/libasound_module_pcm_speex.so ((null): libspeexdsp.so.1: cannot open shared object file: No such file or directory)
+ALSA lib pcm_usb_stream.c:486:(_snd_pcm_usb_stream_open) Invalid type for card
+ALSA lib pcm_usb_stream.c:486:(_snd_pcm_usb_stream_open) Invalid type for card
+connect(2) call to /dev/shm/jack-1000/default/jack_0 failed (err=No such file or directory)
+attempt to connect to server failed
+* SPU2-X: Enumerating PortAudio devices:
+ *** Device 0: 'sysdefault' (ALSA)
+ *** Device 1: 'front' (ALSA)
+ *** Device 2: 'surround40' (ALSA)
+ *** Device 3: 'surround51' (ALSA)
+ *** Device 4: 'surround71' (ALSA)
+ *** Device 5: 'samplerate' (ALSA)
+ *** Device 6: 'pulse' (ALSA)
+ *** Device 7: 'upmix' (ALSA)
+ *** Device 8: 'vdownmix' (ALSA)
+ *** Device 9: 'dmix' (ALSA)
+ *** Device 10: 'default' (ALSA) (selected)
+	Opening CDVD
+isoFile open ok: /home/triastowo/Digimon World 4 (USA)/Digimon World 4 (USA).iso
+	Image type  = DVD
+ * CDVD Disk Open: DVD, Single layer or unknown:
+ * * Track 1: Data (Mode 1) (707472 sectors)
+	Opening USB
+	Opening FW
+	Opening DEV9
+McdSlot 0 [File]: /home/triastowo/.config/PCSX2/memcards/Mcd001.ps2
+McdSlot 1 [File]: /home/triastowo/.config/PCSX2/memcards/Mcd002.ps2
+Plugins opened successfully.
+EE/iR5900-32 Recompiler Reset
+	Bios Found: USA     v01.60(07/02/2002)  Console
+	BIOS r module not found, skipping...
+	BIOS r module not found, skipping...
+	BIOS e module not found, skipping...
+(UpdateVSyncRate) Mode Changed to NTSC.
+(UpdateVSyncRate) FPS Limit Changed : 59.94 fps
+# Initialize memory (rev:3.63, ctm:392Mhz, cpuclk:294Mhz detected)
+
+PlayStation 2 ======== Hard reset boot
+ ROMGEN=2002-0207, IOP info (CPUID=1f, CACH_CONFIG=0, 2MB, IOP mode)
+ <20020207-164243,ROMconf,PS20160AC20020207.bin:11552>
+# Total accessable memory size: 32 MB (B:2:8:0) (363:2:7c30)
+# TLB spad=0 kernel=1:12 default=13:30 extended=31:38
+# Initialize Start.
+# Initialize GS ...
+# Initialize INTC ...
+# Initialize TIMER ...
+# Initialize DMAC ...
+# Initialize VU1 ...
+# Initialize VIF1 ...
+# Initialize GIF ...
+# Initialize VU0 ...
+# Initialize VIF0 ...
+# Initialize IPU ...
+# Initialize FPU ...
+# Initialize User Memory ...
+# Initialize Scratch Pad ...
+# Initialize Done.
+
+EE DECI2 Manager version 0.06 Feb  7 2002 16:41:20
+  CPUID=2e20, BoardID=0, ROMGEN=2002-0207, 32M
+
+(SYSTEM.CNF) Detected PS2 Disc = cdrom0:\SLUS_208.36;1
+(SYSTEM.CNF) Software version = 1.01
+(SYSTEM.CNF) Disc region type = NTSC
+found 0 symbols
+ELF (cdrom0:\SLUS_208.36;1) Game CRC = 0xB871C1D0, EntryPoint = 0x00100008
+(SYSTEM.CNF) Detected PS2 Disc = cdrom0:\SLUS_208.36;1
+(SYSTEM.CNF) Software version = 1.01
+(SYSTEM.CNF) Disc region type = NTSC
+
+IOP Realtime Kernel Ver.0.9.1
+    Copyright 1999 (C) Sony Computer Entertainment Inc. 
+Reboot service module.(99/11/10)
+cdvd driver module version 0.1.1 (C)SCEI
+Load File service.(99/11/05)
+Multi Threaded Fileio module.(99/11/15) 
+iop heap service (99/11/03)
+loadelf: fname cdrom0:¥SLUS_208.36;1 secname all
+loadelf version 3.30
+Input ELF format filename = cdrom0:¥SLUS_208.36;1
+0 00100000 00454b00 ......................................................................
+Loaded, cdrom0:¥SLUS_208.36;1
+start address 0x100008
+gp address 00000000
+# Restart Without Memory Clear.
+# Initialize GS ...
+# Initialize INTC ...
+# Initialize TIMER ...
+# Initialize DMAC ...
+# Initialize VU1 ...
+# Initialize VIF1 ...
+# Initialize GIF ...
+# Initialize VU0 ...
+# Initialize VIF0 ...
+# Initialize IPU ...
+# Initialize FPU ...
+# Initialize Scratch Pad ...
+# Restart Without Memory Clear Done.
+Found Cheats file: 'B871C1D0.pnach'
+comment: Pnach by JorgeFFC.
+Loaded 1 Cheats from 'B871C1D0.pnach' at '/home/triastowo/.config/PCSX2/cheats'
+Overall 1 Cheats loaded
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+Get Reboot Request From EE
+ROM directory not found
+
+PlayStation 2 ======== Update rebooting..
+
+PlayStation 2 ======== Update reboot complete
+cdvdman Init
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+
+IOP Realtime Kernel Ver. 2.2
+    Copyright 1999-2002 (C) Sony Computer Entertainment Inc. 
+Reboot service module.(99/11/10)
+cdvd driver module version 0.1.1 (C)SCEI
+Load File service.(99/11/05)
+Multi Threaded Fileio module.(99/11/15) 
+iop heap service (99/11/03)
+loadmodule: fname cdrom0:¥MODULES¥LIBSD.IRX;1 args 0 arg 
+loadmodule: id 25, ret 0
+loadmodule: fname cdrom0:¥MODULES¥IGFILEIO.IRX;1 args 0 arg 
+Intrinsic Alchemy File IO module (02/11/26)
+loadmodule: id 26, ret 0
+Requested format: color=default, alpha=default, depth=default, stencil=default
+Intrinsic Alchemy FileIO Initializing cddvd device...
+Intrinsic Alchemy FileIO DVDROM Initialized
+Error searching file (¥DRIVERS.Ini;1)
+Disk error code= 0x00000000
+Error searching file (¥..¥DRIVERS.Ini;1)
+Disk error code= 0x00000000
+Alchemy display 640x448 NTSC (color 32, depth 16)
+Base texture address = 0x2bc0
+GS csr.id = 85, csr.rev = 27
+watchdog started
+Two read circuit enabled
+Actual format: color=32, alpha=0, depth=16, stencil=0
+loadmodule: fname cdrom0:¥MODULES¥SIO2MAN.IRX;1 args 0 arg 
+loadmodule: id 27, ret 0
+loadmodule: fname cdrom0:¥MODULES¥PADMAN.IRX;1 args 0 arg 
+loadmodule: id 28, ret 0
+loadmodule: fname cdrom0:¥MODULES¥MTAPMAN.IRX;1 args 0 arg 
+loadmodule: id 29, ret 0
+loadmodule: fname cdrom0:¥MODULES¥SDRDRV.IRX;1 args 0 arg 
+SDR driver version 4.0.1 (C) SCEI
+ Exit rsd_main 
+loadmodule: id 30, ret 2
+loadmodule: fname cdrom0:¥MODULES¥CRI_ADXI.IRX;1 args 19 arg sdinit=0
+CRI ADX Driver Ver.9.31s281(Oct  6 2004 11:47:50)
+CRI ADX Driver : sceSdInit Call = 0
+CRI ADX Driver : Main Thread Priority = 39
+CRI ADX Driver : PSM Thread Priority  = 39
+CRI ADX Driver : DTX Thread Priority  = 48
+CRI ADX Driver : SPU CORE Number = 1
+loadmodule: id 31, ret 2
+loadmodule: fname cdrom0:¥MODULES¥SNDFI.IRX;1 args 0 arg 
+SNDF Driver Ver 2.09c(Oct  4 2004 20:46:28)
+loadmodule: id 32, ret 0
+Unknown device 'host'
+Known devices are  cdrom:(CD-ROM )  rom:(ROM/Flash)  tty:(CONSOLE) 
+SRD: sceOpen error = -19
+HTCI: Can't read filelist file.(cdvd.fic)
+DVCI: "NDMW.IGB" found.
+DVCI: "AREA.AFS" found.
+DVCI: "NDMW.AFS" found.
+DVCI: Total 3 files.
+PS2RNA: sceSifAllocIopHeap(266304) ret=0x000c7e00
+PS2RNA: sceSifAllocIopHeap(2256) ret=0x00108f00
+PS2RNA: sceSifAllocIopHeap(16448) ret=0x00109800
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+loadmodule: fname cdrom0:¥MODULES¥MCMAN.IRX;1 args 0 arg 
+loadmodule: id 33, ret 2
+loadmodule: fname cdrom0:¥MODULES¥MCSERV.IRX;1 args 0 arg 
+loadmodule: id 34, ret 2
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+ALSA lib pcm.c:8424:(snd_pcm_recover) underrun occurred
+Closing plugins...
+	Closing DEV9
+	Closing FW
+	Closing USB
+	Closing CDVD
+	Closing SPU2
+	Closing PAD
+	Closing GS
+Plugins closed successfully.
+Shutting down plugins...
+Plugins shutdown successfully.
+(GameDB) Unloading...
